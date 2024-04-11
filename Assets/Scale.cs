@@ -7,6 +7,6 @@ public class Scale : MonoBehaviour
 
     private void Update()
     {
-        transform.localScale += _scale;
+        transform.localScale += _scale * Time.deltaTime;
     }
 }
